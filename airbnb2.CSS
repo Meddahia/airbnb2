@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+        /*style de la navbar*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 20px 7%;
+}
+.logo{
+    width: 35px;
+    cursor: pointer;
+}
+
+.nav-links  li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: grey;
+}
+.register{
+    text-decoration: none;
+    color: rgb(72, 71, 71);
+}
+
+
+/*style de serchbar*/
+
+.search-bar{
+   background-color: rgb(255, 255, 255);
+   width: 70%;
+   margin:30px auto;
+   padding: 6px 10px 6px 30px;
+   border-radius: 50px;
+   box-shadow: 0 4px 8px rgb(72, 71, 71);
+   
+}
+
+.search-bar from{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar from input{
+    display: block;
+    border: 0;
+    outline: none;
+}
+
+
+/* style du boutton loupe/ et dif police*/
+
+.search-bar from button{
+    background: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+}
+
+.search-bar button img{
+    width: 20px;
+    margin-top: 7px;
+}
+
+.destination-input{
+    flex: 1;
+}
+
+.search-bar from label{
+    font-weight: 400;
+}
+
+/*style icones*/
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10px;
+    width: 98%;
+    height: 50;
+}
+
+
+.icones a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 70;
+    height: auto;
+    position: relative;
+    top: 50px;
+    right: 60px;
+    
+}
+
+/*.icones p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}*/
+
+/*style annonces airbnb*/
+
+.sub-title{
+    margin: 50px 0 20px;
+    font-size: 2.2vw ;
+    font-weight: 500;
+    color: #333;
+}
+
+
+
+.experiences{
+    margin: 30px;
+    display: flex;
+    gap: 30px;
+    flex-wrap:wrap;
+   
+}
+
+.experiences img{
+    width: 220.31;
+    height: 204.33;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
